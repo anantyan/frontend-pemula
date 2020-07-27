@@ -1,0 +1,189 @@
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    header {
+        h2 {
+            margin: 0px 0px 0px 10px;
+            padding: 8px;
+            font-size: 16pt;
+        }
+
+        nav {
+            margin: 0px 16px 0px 0px;
+
+            ul.mainnav {
+                display: none;
+    
+                li.navbar {
+                    display: inherit;
+                    padding: 10px;
+                }
+            }
+            
+            ul.nav {
+                display: block;
+
+                li.menu {
+                    padding: 8px;
+
+                    a {
+                        padding: 8px;
+
+                        &:hover {
+                            border-radius: 4px;
+                            padding: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    div.sidenav {
+        display: block;
+        height: 100vh;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #000000;
+        overflow-x: hidden;
+        transition: 0.5s;
+        box-shadow: 0 4px 0 0;
+
+        ul {
+            list-style: none;
+            padding: 0 10px 0 10px;
+
+            li.close {
+                float: left;
+            }
+        
+            li>a {
+                &#close-menu {
+                    float: right;
+                }
+
+                padding: 10px 10px 10px 10px;
+                text-decoration: none;
+                font-size: 11pt;
+                color: #ffffff;
+                display: block;
+                transition: 0.3s;
+
+                &:hover {
+                    color: $hover-article;
+                    border-radius: 8px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+    main {
+        padding-top: $margin-top;
+        display: block;
+        overflow: hidden;
+        align-items: unset;
+
+        div.content {
+            margin: 0px;
+            width: 100vw;
+            position: unset;
+            overflow: auto;
+            white-space: nowrap;
+
+            &>h2 {
+                padding: 8px;
+                margin-bottom: 8px;
+                margin-top: 10px;
+            }
+
+            div.new-article {
+                display: inline-flex;
+                width: 100vw;
+                height: 0%;
+            }
+
+            div.list-news {
+                padding: 16px;
+                height: auto;
+                overflow: unset;
+                position: static;
+                width: 240px;
+
+                &:hover {
+                    background-color: $hover-article;
+                }
+
+                &>div {
+                    overflow: hidden;
+                    position: static;
+                    white-space: normal;
+
+                    &>label.date {
+                        margin-left: 16px;
+                        font-size: 10pt;
+                    }
+
+                    &>h4 {
+                        margin: 8px 16px 8px 16px;
+                    }
+
+                    &>label.description {
+                        margin-left: 16px;
+                    }
+                }
+
+                img {
+                    border-radius: 12px;
+                    float: unset;
+                }
+            }
+        }
+
+        aside {
+            margin: 0px;
+            width: 100vw;
+
+            &>h2 {
+                padding: 8px;
+                margin-bottom: 8px;
+                margin-top: 10px;
+            }
+
+            article {
+                padding: 16px;
+                overflow: auto;
+
+                &:hover {
+                    background-color: $hover-article;
+                }
+
+                div{
+                    h2 {
+                        margin: 16px 0 16px 16px;
+                    }
+    
+                    div.article-news {
+                        &>label.date {
+                            float: right;
+                            margin-right: 16px;
+                        }
+                        &>label.description {
+                            float: left;
+                            margin-left: 16px;
+                        }
+                    }
+                }
+
+                img {
+                    border-radius: 12px;
+                }
+            }
+
+            footer {
+                padding: 16px;
+            }
+        }
+    }
+}

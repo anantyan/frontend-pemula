@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Jurnal</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <h2>Focus Jurnal</h2>
+        <nav>
+            <ul class="mainnav">
+                <li class="navbar">
+                    <a href="javascript:void(0);">Beranda</a>
+                </li>
+                <li class="navbar">
+                    <a href="javascript:void(0);" onclick="about()">Biodata</a>
+                </li>
+                <li class="navbar">
+                    <a href="javascript:void(0);" onclick="article()">Article</a>
+                </li>
+                <li class="navbar">
+                    <a href="javascript:void(0);">Kontak Kami</a>
+                </li>
+            </ul>
+            <ul class="nav">
+                <li class="menu">
+                    <a href="javascript:void(0);">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="sidenav">
+        <ul>
+            <li>
+                <a href="javascript:void(0);" id="close-menu"><i class="fa fa-close"></i></a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">Beranda</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" onclick="about()">Biodata</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" onclick="article()">Article</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">Kontak Kami</a>
+            </li>
+        </ul>
+    </div>
+    <main>
+        <div class="content">
+            <h2>Berita Terpopuler</h2>
+            <div class="new-article"></div>
+        </div>
+        <aside>
+            <h2 class="main-content-news">Terbaru</h2>
+            <div class="article"></div>
+            <div class="main-content"></div>
+            <footer>
+                <p>BDD &copy 2020 - Focus Jurnal | <a target="_blank" href="https://github.com/anantyan">Arya Rezza</a></p>
+            </footer>
+        </aside>
+    </main>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+
+</html>
