@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-
 body {
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
-}
+  font-family: 'Roboto', sans-serif; }
 
 header {
   top: 0;
@@ -15,230 +13,146 @@ header {
   height: 70px;
   width: 100vw;
   background-color: #ffffff;
-  box-shadow: 0px 0px 4px 0px;
-}
-
-header h2 {
-  margin: 0px 0px 0px 16px;
-  padding: 10px;
-  color: #333333;
-}
-
-header nav {
-  margin: 0px 26px 0px 0px;
-}
-
-header nav ul.mainnav {
-  overflow: auto;
-  white-space: nowrap;
-  margin: auto;
-  padding: 0px;
-  list-style: none;
-}
-
-header nav ul.mainnav li.navbar {
-  display: inline-block;
-  padding: 10px;
-}
-
-header nav ul.mainnav li.navbar a {
-  text-decoration: none;
-  color: #333333;
-  padding: 10px;
-}
-
-header nav ul.mainnav li.navbar a:hover {
-  background-color: #ececec;
-  color: #000000;
-  border-radius: 8px;
-  padding: 10px;
-}
-
-header nav ul.nav {
-  display: none;
-  list-style: none;
-}
-
-header nav ul.nav li.menu a {
-  text-decoration: none;
-  color: #333333;
-  padding: 10px;
-}
-
-header nav ul.nav li.menu a:hover {
-  background-color: #ececec;
-  color: #000000;
-  border-radius: 8px;
-  padding: 10px;
-}
+  box-shadow: 0px 0px 4px 0px; }
+  header h2 {
+    margin: 0px 0px 0px 16px;
+    padding: 10px;
+    color: #333333; }
+  header nav {
+    margin: 0px 26px 0px 0px; }
+    header nav ul.mainnav {
+      overflow: auto;
+      white-space: nowrap;
+      margin: auto;
+      padding: 0px;
+      list-style: none; }
+      header nav ul.mainnav li.navbar {
+        display: inline-block;
+        padding: 10px; }
+        header nav ul.mainnav li.navbar a {
+          text-decoration: none;
+          color: #333333;
+          padding: 10px; }
+          header nav ul.mainnav li.navbar a:hover {
+            background-color: #ececec;
+            color: #000000;
+            border-radius: 8px;
+            padding: 10px; }
+    header nav ul.nav {
+      display: none;
+      list-style: none; }
+      header nav ul.nav li.menu a {
+        text-decoration: none;
+        color: #333333;
+        padding: 10px; }
+        header nav ul.nav li.menu a:hover {
+          background-color: #ececec;
+          color: #000000;
+          border-radius: 8px;
+          padding: 10px; }
 
 div.sidenav {
   width: 0;
-  display: none;
-}
+  display: none; }
 
 main {
   padding-top: 70px;
   display: flex;
   overflow: hidden;
-  align-items: flex-start;
-}
-
-main div.content {
-  margin: 0px;
-  width: 40vw;
-  position: fixed;
-}
-
-main div.content>h2 {
-  margin-left: 16px;
-  padding: 10px;
-  border-bottom: 1px solid #9a9a9a;
-  margin-right: 16px;
-}
-
-main div.content div.new-article {
-  overflow: auto;
-  height: calc(100vh - 160px);
-}
-
-main div.content div.list-news {
-  padding: 26px;
-  overflow: auto;
-}
-
-main div.content div.list-news:hover {
-  background-color: #ececec;
-}
-
-main div.content div.list-news>div {
-  overflow: auto;
-}
-
-main div.content div.list-news>div>label.date {
-  margin-left: 16px;
-  font-size: 11pt;
-}
-
-main div.content div.list-news>div>h4 {
-  margin: 16px 0 16px 16px;
-}
-
-main div.content div.list-news>div>label.description {
-  margin-left: 16px;
-}
-
-main div.content div.list-news img {
-  width: 240px;
-  float: left;
-  border-radius: 20px;
-}
-
-main aside {
-  margin-left: 40vw;
-  width: 100vw;
-}
-
-main aside>h2 {
-  margin-left: 16px;
-  margin-right: 16px;
-  padding: 10px;
-  border-bottom: 1px solid #9a9a9a;
-}
-
-main aside article {
-  padding: 26px;
-  overflow: auto;
-}
-
-main aside article:hover {
-  background-color: #ececec;
-}
-
-main aside article img {
-  width: 100%;
-  border-radius: 20px;
-}
-
-main aside article div h2 {
-  margin: 16px 0 16px 16px;
-}
-
-main aside article div div.article-news>label.date {
-  float: right;
-  margin-right: 16px;
-}
-
-main aside article div div.article-news>label.description {
-  float: left;
-  margin-left: 16px;
-}
-
-main aside footer {
-  padding: 26px;
-}
+  align-items: flex-start; }
+  main div.content {
+    margin: 0px;
+    width: 40vw;
+    position: fixed; }
+    main div.content > h2 {
+      margin-left: 16px;
+      padding: 10px;
+      border-bottom: 1px solid #9a9a9a;
+      margin-right: 16px; }
+    main div.content div.new-article {
+      overflow: auto;
+      height: calc(100vh - 160px); }
+    main div.content div.list-news {
+      padding: 26px;
+      overflow: auto; }
+      main div.content div.list-news:hover {
+        background-color: #ececec; }
+      main div.content div.list-news > div {
+        overflow: auto; }
+        main div.content div.list-news > div > label.date {
+          margin-left: 16px;
+          font-size: 11pt; }
+        main div.content div.list-news > div > h4 {
+          margin: 16px 0 16px 16px; }
+        main div.content div.list-news > div > label.description {
+          margin-left: 16px; }
+      main div.content div.list-news img {
+        width: 240px;
+        float: left;
+        border-radius: 20px; }
+  main aside {
+    margin-left: 40vw;
+    width: 100vw; }
+    main aside > h2 {
+      margin-left: 16px;
+      margin-right: 16px;
+      padding: 10px;
+      border-bottom: 1px solid #9a9a9a; }
+    main aside article {
+      padding: 26px;
+      overflow: auto; }
+      main aside article:hover {
+        background-color: #ececec; }
+      main aside article img {
+        width: 100%;
+        border-radius: 20px; }
+      main aside article div h2 {
+        margin: 16px 0 16px 16px; }
+      main aside article div div.article-news > label.date {
+        float: right;
+        margin-right: 16px; }
+      main aside article div div.article-news > label.description {
+        float: left;
+        margin-left: 16px; }
+    main aside footer {
+      padding: 26px; }
 
 .main-content .main-content-detail {
-  padding: 26px;
-}
-
-.main-content .main-content-detail .main-content-title {
-  margin: 0 0 16px 0;
-}
-
-.main-content .main-content-detail .main-content-photo {
-  margin-right: 16px;
-  margin-bottom: 16px;
-  border-radius: 20px;
-  width: 100%;
-}
-
-.main-content .main-content-detail .main-content-description .main-content-label {
-  display: flex;
-  justify-content: space-between;
-}
-
-.main-content .main-content-detail .main-content-detail-description {
-  text-align: justify;
-}
+  padding: 26px; }
+  .main-content .main-content-detail .main-content-title {
+    margin: 0 0 16px 0; }
+  .main-content .main-content-detail .main-content-photo {
+    margin-right: 16px;
+    margin-bottom: 16px;
+    border-radius: 20px;
+    width: 100%; }
+  .main-content .main-content-detail .main-content-description .main-content-label {
+    display: flex;
+    justify-content: space-between; }
+  .main-content .main-content-detail .main-content-detail-description {
+    text-align: justify; }
 
 @media screen and (max-width: 575.98px) {
   header h2 {
     margin: 0px 0px 0px 10px;
     padding: 8px;
-    font-size: 16pt;
-  }
-
+    font-size: 16pt; }
   header nav {
-    margin: 0px 16px 0px 0px;
-  }
-
-  header nav ul.mainnav {
-    display: none;
-  }
-
-  header nav ul.mainnav li.navbar {
-    display: inherit;
-    padding: 10px;
-  }
-
-  header nav ul.nav {
-    display: block;
-  }
-
-  header nav ul.nav li.menu {
-    padding: 8px;
-  }
-
-  header nav ul.nav li.menu a {
-    padding: 8px;
-  }
-
-  header nav ul.nav li.menu a:hover {
-    border-radius: 4px;
-    padding: 8px;
-  }
-
+    margin: 0px 16px 0px 0px; }
+    header nav ul.mainnav {
+      display: none; }
+      header nav ul.mainnav li.navbar {
+        display: inherit;
+        padding: 10px; }
+    header nav ul.nav {
+      display: block; }
+      header nav ul.nav li.menu {
+        padding: 8px; }
+        header nav ul.nav li.menu a {
+          padding: 8px; }
+          header nav ul.nav li.menu a:hover {
+            border-radius: 4px;
+            padding: 8px; }
   div.sidenav {
     display: block;
     height: 100vh;
@@ -250,180 +164,112 @@ main aside footer {
     background-color: #000000;
     overflow-x: hidden;
     transition: 0.5s;
-    box-shadow: 0 4px 0 0;
-  }
-
-  div.sidenav ul {
-    list-style: none;
-    padding: 0 10px 0 10px;
-  }
-
-  div.sidenav ul li.close {
-    float: left;
-  }
-
-  div.sidenav ul li>a {
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
-    font-size: 11pt;
-    color: #ffffff;
-    display: block;
-    transition: 0.3s;
-  }
-
-  div.sidenav ul li>a#close-menu {
-    float: right;
-  }
-
-  div.sidenav ul li>a:hover {
-    color: #ececec;
-    border-radius: 8px;
-    padding: 10px;
-  }
-
+    box-shadow: 0 4px 0 0; }
+    div.sidenav ul {
+      list-style: none;
+      padding: 0 10px 0 10px; }
+      div.sidenav ul li.close {
+        float: left; }
+      div.sidenav ul li > a {
+        padding: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-size: 11pt;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s; }
+        div.sidenav ul li > a#close-menu {
+          float: right; }
+        div.sidenav ul li > a:hover {
+          color: #ececec;
+          border-radius: 8px;
+          padding: 10px; }
   main {
     padding-top: 70px;
     display: block;
     overflow: hidden;
-    align-items: unset;
-  }
-
-  main div.content {
-    margin: 0px;
-    width: 100vw;
-    position: unset;
-    overflow: auto;
-    white-space: nowrap;
-  }
-
-  main div.content>h2 {
-    padding: 8px;
-    margin-bottom: 8px;
-    margin-top: 10px;
-  }
-
-  main div.content div.new-article {
-    display: inline-flex;
-    width: 100vw;
-    height: 0%;
-  }
-
-  main div.content div.list-news {
-    padding: 16px;
-    height: auto;
-    overflow: unset;
-    position: static;
-    width: 240px;
-  }
-
-  main div.content div.list-news:hover {
-    background-color: #ececec;
-  }
-
-  main div.content div.list-news>div {
-    overflow: hidden;
-    position: static;
-    white-space: normal;
-  }
-
-  main div.content div.list-news>div>label.date {
-    margin-left: 16px;
-    font-size: 10pt;
-  }
-
-  main div.content div.list-news>div>h4 {
-    margin: 8px 16px 8px 16px;
-  }
-
-  main div.content div.list-news>div>label.description {
-    margin-left: 16px;
-  }
-
-  main div.content div.list-news img {
-    border-radius: 12px;
-    float: unset;
-  }
-
-  main aside {
-    margin: 0px;
-    width: 100vw;
-  }
-
-  main aside>h2 {
-    padding: 8px;
-    margin-bottom: 8px;
-    margin-top: 10px;
-  }
-
-  main aside article {
-    padding: 16px;
-    overflow: auto;
-  }
-
-  main aside article:hover {
-    background-color: #ececec;
-  }
-
-  main aside article div h2 {
-    margin: 16px 0 16px 16px;
-  }
-
-  main aside article div div.article-news>label.date {
-    float: right;
-    margin-right: 16px;
-  }
-
-  main aside article div div.article-news>label.description {
-    float: left;
-    margin-left: 16px;
-  }
-
-  main aside article img {
-    border-radius: 12px;
-  }
-
-  main aside footer {
-    padding: 16px;
-  }
-}
+    align-items: unset; }
+    main div.content {
+      margin: 0px;
+      width: 100vw;
+      position: unset;
+      overflow: auto;
+      white-space: nowrap; }
+      main div.content > h2 {
+        padding: 8px;
+        margin-bottom: 8px;
+        margin-top: 10px; }
+      main div.content div.new-article {
+        display: inline-flex;
+        width: 100vw;
+        height: 0%; }
+      main div.content div.list-news {
+        padding: 16px;
+        height: auto;
+        overflow: unset;
+        position: static;
+        width: 240px; }
+        main div.content div.list-news:hover {
+          background-color: #ececec; }
+        main div.content div.list-news > div {
+          overflow: hidden;
+          position: static;
+          white-space: normal; }
+          main div.content div.list-news > div > label.date {
+            margin-left: 16px;
+            font-size: 10pt; }
+          main div.content div.list-news > div > h4 {
+            margin: 8px 16px 8px 16px; }
+          main div.content div.list-news > div > label.description {
+            margin-left: 16px; }
+        main div.content div.list-news img {
+          border-radius: 12px;
+          float: unset; }
+    main aside {
+      margin: 0px;
+      width: 100vw; }
+      main aside > h2 {
+        padding: 8px;
+        margin-bottom: 8px;
+        margin-top: 10px; }
+      main aside article {
+        padding: 16px;
+        overflow: auto; }
+        main aside article:hover {
+          background-color: #ececec; }
+        main aside article div h2 {
+          margin: 16px 0 16px 16px; }
+        main aside article div div.article-news > label.date {
+          float: right;
+          margin-right: 16px; }
+        main aside article div div.article-news > label.description {
+          float: left;
+          margin-left: 16px; }
+        main aside article img {
+          border-radius: 12px; }
+      main aside footer {
+        padding: 16px; } }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   header h2 {
     margin: 0px 0px 0px 10px;
     padding: 8px;
-    font-size: 16pt;
-  }
-
+    font-size: 16pt; }
   header nav {
-    margin: 0px 16px 0px 0px;
-  }
-
-  header nav ul.mainnav {
-    display: none;
-  }
-
-  header nav ul.mainnav li.navbar {
-    display: inherit;
-    padding: 10px;
-  }
-
-  header nav ul.nav {
-    display: block;
-  }
-
-  header nav ul.nav li.menu {
-    padding: 8px;
-  }
-
-  header nav ul.nav li.menu a {
-    padding: 8px;
-  }
-
-  header nav ul.nav li.menu a:hover {
-    border-radius: 4px;
-    padding: 8px;
-  }
-
+    margin: 0px 16px 0px 0px; }
+    header nav ul.mainnav {
+      display: none; }
+      header nav ul.mainnav li.navbar {
+        display: inherit;
+        padding: 10px; }
+    header nav ul.nav {
+      display: block; }
+      header nav ul.nav li.menu {
+        padding: 8px; }
+        header nav ul.nav li.menu a {
+          padding: 8px; }
+          header nav ul.nav li.menu a:hover {
+            border-radius: 4px;
+            padding: 8px; }
   div.sidenav {
     display: block;
     height: 100vh;
@@ -435,180 +281,112 @@ main aside footer {
     background-color: #000000;
     overflow-x: hidden;
     transition: 0.5s;
-    box-shadow: 0 4px 0 0;
-  }
-
-  div.sidenav ul {
-    list-style: none;
-    padding: 0 10px 0 10px;
-  }
-
-  div.sidenav ul li.close {
-    float: left;
-  }
-
-  div.sidenav ul li>a {
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
-    font-size: 11pt;
-    color: #ffffff;
-    display: block;
-    transition: 0.3s;
-  }
-
-  div.sidenav ul li>a#close-menu {
-    float: right;
-  }
-
-  div.sidenav ul li>a:hover {
-    color: #ececec;
-    border-radius: 8px;
-    padding: 10px;
-  }
-
+    box-shadow: 0 4px 0 0; }
+    div.sidenav ul {
+      list-style: none;
+      padding: 0 10px 0 10px; }
+      div.sidenav ul li.close {
+        float: left; }
+      div.sidenav ul li > a {
+        padding: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-size: 11pt;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s; }
+        div.sidenav ul li > a#close-menu {
+          float: right; }
+        div.sidenav ul li > a:hover {
+          color: #ececec;
+          border-radius: 8px;
+          padding: 10px; }
   main {
     padding-top: 70px;
     display: block;
     overflow: hidden;
-    align-items: unset;
-  }
-
-  main div.content {
-    margin: 0px;
-    width: 100vw;
-    position: unset;
-    overflow: auto;
-    white-space: nowrap;
-  }
-
-  main div.content>h2 {
-    padding: 8px;
-    margin-bottom: 8px;
-    margin-top: 10px;
-  }
-
-  main div.content div.new-article {
-    display: inline-flex;
-    width: 100vw;
-    height: 0%;
-  }
-
-  main div.content div.list-news {
-    padding: 16px;
-    height: auto;
-    overflow: unset;
-    position: static;
-    width: 240px;
-  }
-
-  main div.content div.list-news:hover {
-    background-color: #ececec;
-  }
-
-  main div.content div.list-news>div {
-    overflow: hidden;
-    position: static;
-    white-space: normal;
-  }
-
-  main div.content div.list-news>div>label.date {
-    margin-left: 16px;
-    font-size: 10pt;
-  }
-
-  main div.content div.list-news>div>h4 {
-    margin: 8px 16px 8px 16px;
-  }
-
-  main div.content div.list-news>div>label.description {
-    margin-left: 16px;
-  }
-
-  main div.content div.list-news img {
-    border-radius: 12px;
-    float: unset;
-  }
-
-  main aside {
-    margin: 0px;
-    width: 100vw;
-  }
-
-  main aside>h2 {
-    padding: 8px;
-    margin-bottom: 8px;
-    margin-top: 10px;
-  }
-
-  main aside article {
-    padding: 16px;
-    overflow: auto;
-  }
-
-  main aside article:hover {
-    background-color: #ececec;
-  }
-
-  main aside article div h2 {
-    margin: 16px 0 16px 16px;
-  }
-
-  main aside article div div.article-news>label.date {
-    float: right;
-    margin-right: 16px;
-  }
-
-  main aside article div div.article-news>label.description {
-    float: left;
-    margin-left: 16px;
-  }
-
-  main aside article img {
-    border-radius: 12px;
-  }
-
-  main aside footer {
-    padding: 16px;
-  }
-}
+    align-items: unset; }
+    main div.content {
+      margin: 0px;
+      width: 100vw;
+      position: unset;
+      overflow: auto;
+      white-space: nowrap; }
+      main div.content > h2 {
+        padding: 8px;
+        margin-bottom: 8px;
+        margin-top: 10px; }
+      main div.content div.new-article {
+        display: inline-flex;
+        width: 100vw;
+        height: 0%; }
+      main div.content div.list-news {
+        padding: 16px;
+        height: auto;
+        overflow: unset;
+        position: static;
+        width: 240px; }
+        main div.content div.list-news:hover {
+          background-color: #ececec; }
+        main div.content div.list-news > div {
+          overflow: hidden;
+          position: static;
+          white-space: normal; }
+          main div.content div.list-news > div > label.date {
+            margin-left: 16px;
+            font-size: 10pt; }
+          main div.content div.list-news > div > h4 {
+            margin: 8px 16px 8px 16px; }
+          main div.content div.list-news > div > label.description {
+            margin-left: 16px; }
+        main div.content div.list-news img {
+          border-radius: 12px;
+          float: unset; }
+    main aside {
+      margin: 0px;
+      width: 100vw; }
+      main aside > h2 {
+        padding: 8px;
+        margin-bottom: 8px;
+        margin-top: 10px; }
+      main aside article {
+        padding: 16px;
+        overflow: auto; }
+        main aside article:hover {
+          background-color: #ececec; }
+        main aside article div h2 {
+          margin: 16px 0 16px 16px; }
+        main aside article div div.article-news > label.date {
+          float: right;
+          margin-right: 16px; }
+        main aside article div div.article-news > label.description {
+          float: left;
+          margin-left: 16px; }
+        main aside article img {
+          border-radius: 12px; }
+      main aside footer {
+        padding: 16px; } }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   header h2 {
     margin: 0px 0px 0px 10px;
     padding: 8px;
-    font-size: 16pt;
-  }
-
+    font-size: 16pt; }
   header nav {
-    margin: 0px 16px 0px 0px;
-  }
-
-  header nav ul.mainnav {
-    display: none;
-  }
-
-  header nav ul.mainnav li.navbar {
-    display: inherit;
-    padding: 10px;
-  }
-
-  header nav ul.nav {
-    display: block;
-  }
-
-  header nav ul.nav li.menu {
-    padding: 8px;
-  }
-
-  header nav ul.nav li.menu a {
-    padding: 8px;
-  }
-
-  header nav ul.nav li.menu a:hover {
-    border-radius: 4px;
-    padding: 8px;
-  }
-
+    margin: 0px 16px 0px 0px; }
+    header nav ul.mainnav {
+      display: none; }
+      header nav ul.mainnav li.navbar {
+        display: inherit;
+        padding: 10px; }
+    header nav ul.nav {
+      display: block; }
+      header nav ul.nav li.menu {
+        padding: 8px; }
+        header nav ul.nav li.menu a {
+          padding: 8px; }
+          header nav ul.nav li.menu a:hover {
+            border-radius: 4px;
+            padding: 8px; }
   div.sidenav {
     display: block;
     height: 100vh;
@@ -620,139 +398,96 @@ main aside footer {
     background-color: #000000;
     overflow-x: hidden;
     transition: 0.5s;
-    box-shadow: 0 4px 0 0;
-  }
-
-  div.sidenav ul {
-    list-style: none;
-    padding: 0 10px 0 10px;
-  }
-
-  div.sidenav ul li.close {
-    float: left;
-  }
-
-  div.sidenav ul li>a {
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
-    font-size: 11pt;
-    color: #ffffff;
-    display: block;
-    transition: 0.3s;
-  }
-
-  div.sidenav ul li>a#close-menu {
-    float: right;
-  }
-
-  div.sidenav ul li>a:hover {
-    color: #ececec;
-    border-radius: 8px;
-    padding: 10px;
-  }
-
+    box-shadow: 0 4px 0 0; }
+    div.sidenav ul {
+      list-style: none;
+      padding: 0 10px 0 10px; }
+      div.sidenav ul li.close {
+        float: left; }
+      div.sidenav ul li > a {
+        padding: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-size: 11pt;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s; }
+        div.sidenav ul li > a#close-menu {
+          float: right; }
+        div.sidenav ul li > a:hover {
+          color: #ececec;
+          border-radius: 8px;
+          padding: 10px; }
   main {
     padding-top: 70px;
     display: block;
     overflow: hidden;
-    align-items: unset;
-  }
+    align-items: unset; }
+    main div.content {
+      margin: 0px;
+      width: 100vw;
+      position: unset;
+      overflow: auto;
+      white-space: nowrap; }
+      main div.content > h2 {
+        padding: 8px;
+        margin-bottom: 8px;
+        margin-top: 10px; }
+      main div.content div.new-article {
+        display: inline-flex;
+        width: 100vw;
+        height: 0%; }
+      main div.content div.list-news {
+        padding: 16px;
+        height: auto;
+        overflow: unset;
+        position: static;
+        width: 240px; }
+        main div.content div.list-news:hover {
+          background-color: #ececec; }
+        main div.content div.list-news > div {
+          overflow: hidden;
+          position: static;
+          white-space: normal; }
+          main div.content div.list-news > div > label.date {
+            margin-left: 16px;
+            font-size: 10pt; }
+          main div.content div.list-news > div > h4 {
+            margin: 8px 16px 8px 16px; }
+          main div.content div.list-news > div > label.description {
+            margin-left: 16px; }
+        main div.content div.list-news img {
+          border-radius: 12px;
+          float: unset; }
+    main aside {
+      margin: 0px;
+      width: 100vw; }
+      main aside > h2 {
+        padding: 8px;
+        margin-bottom: 8px;
+        margin-top: 10px; }
+      main aside article {
+        padding: 16px;
+        overflow: auto; }
+        main aside article:hover {
+          background-color: #ececec; }
+        main aside article div h2 {
+          margin: 16px 0 16px 16px; }
+        main aside article div div.article-news > label.date {
+          float: right;
+          margin-right: 16px; }
+        main aside article div div.article-news > label.description {
+          float: left;
+          margin-left: 16px; }
+        main aside article img {
+          border-radius: 12px; }
+      main aside footer {
+        padding: 16px; } }
 
-  main div.content {
-    margin: 0px;
-    width: 100vw;
-    position: unset;
-    overflow: auto;
-    white-space: nowrap;
-  }
+:-webkit-full-screen {
+  color: rgb(250, 0, 4); }
 
-  main div.content>h2 {
-    padding: 8px;
-    margin-bottom: 8px;
-    margin-top: 10px;
-  }
+:-ms-fullscreen {
+  color: rgb(250, 0, 4); }
 
-  main div.content div.new-article {
-    display: inline-flex;
-    width: 100vw;
-    height: 0%;
-  }
-
-  main div.content div.list-news {
-    padding: 16px;
-    height: auto;
-    overflow: unset;
-    position: static;
-    width: 240px;
-  }
-
-  main div.content div.list-news:hover {
-    background-color: #ececec;
-  }
-
-  main div.content div.list-news>div {
-    overflow: hidden;
-    position: static;
-    white-space: normal;
-  }
-
-  main div.content div.list-news>div>label.date {
-    margin-left: 16px;
-    font-size: 10pt;
-  }
-
-  main div.content div.list-news>div>h4 {
-    margin: 8px 16px 8px 16px;
-  }
-
-  main div.content div.list-news>div>label.description {
-    margin-left: 16px;
-  }
-
-  main div.content div.list-news img {
-    border-radius: 12px;
-    float: unset;
-  }
-
-  main aside {
-    margin: 0px;
-    width: 100vw;
-  }
-
-  main aside>h2 {
-    padding: 8px;
-    margin-bottom: 8px;
-    margin-top: 10px;
-  }
-
-  main aside article {
-    padding: 16px;
-    overflow: auto;
-  }
-
-  main aside article:hover {
-    background-color: #ececec;
-  }
-
-  main aside article div h2 {
-    margin: 16px 0 16px 16px;
-  }
-
-  main aside article div div.article-news>label.date {
-    float: right;
-    margin-right: 16px;
-  }
-
-  main aside article div div.article-news>label.description {
-    float: left;
-    margin-left: 16px;
-  }
-
-  main aside article img {
-    border-radius: 12px;
-  }
-
-  main aside footer {
-    padding: 16px;
-  }
-}
+:fullscreen {
+  color: rgb(250, 0, 4); }

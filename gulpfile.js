@@ -5,8 +5,7 @@ const precss = require('precss');
 const autoprefix = require('autoprefixer');
 const sync = require('browser-sync').create();
 
-const css = () => {
-    return gulp.src('./source/assets/css/**/*.scss')
+const css = () => gulp.src('./source/assets/css/**/*.scss')
         .pipe(sass())
         .pipe(postcss([
             precss(),
@@ -15,14 +14,11 @@ const css = () => {
         .on('error', console.error.bind(console))
         .pipe(gulp.dest('./public/assets/css'))
         .pipe(sync.stream());
-};
 
-const js = () => {
-    return gulp.src('./source/assets/js/**/*.js')
+const js = () => gulp.src('./source/assets/js/**/*.js')
         .on('error', console.error.bind(console))
         .pipe(gulp.dest('./public/assets/js'))
         .pipe(sync.stream());
-};
 
 const browserSync = () => {
     sync.init({
@@ -40,11 +36,12 @@ const browserSync = () => {
 };
 
 const defaultTask = () => {
-    css();
-    js();
-    browserSync();
+    css;
+    js;
+    browserSync;
 };
 
 exports.css = css;
 exports.js = js;
+exports.sync = browserSync;
 exports.default = defaultTask;
